@@ -1,6 +1,6 @@
 //Maya ASCII 2020 scene
 //Name: ToolBoxModel.ma
-//Last modified: Thu, Dec 03, 2020 11:46:49 PM
+//Last modified: Fri, Dec 04, 2020 11:58:01 PM
 //Codeset: UTF-8
 requires maya "2020";
 requires "mtoa" "4.0.0";
@@ -11,23 +11,23 @@ fileInfo "product" "Maya 2020";
 fileInfo "version" "2020";
 fileInfo "cutIdentifier" "201911140446-42a737a01c";
 fileInfo "osv" "Mac OS X 10.15.3";
-fileInfo "UUID" "4938AC90-0746-7E29-E898-80940D47C0E3";
+fileInfo "UUID" "7351A6DE-2F44-7538-39A7-D4B96A2755BE";
 createNode transform -s -n "persp";
 	rename -uid "BF8EF751-824F-F531-9B90-10B170070524";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 0.97495004666870988 2.968669854982414 -14.114248844160457 ;
-	setAttr ".r" -type "double3" 704.06164720637719 542.99999999972169 0 ;
+	setAttr ".t" -type "double3" 12.554213293647248 -10.843518683133276 -9.4702926159363887 ;
+	setAttr ".r" -type "double3" 862.46164720544232 -46.599999999999106 -2.3145193526656873e-15 ;
 	setAttr ".rp" -type "double3" -1.2906342661267445e-15 8.3266726846886741e-17 -3.5527136788005009e-15 ;
 	setAttr ".rpt" -type "double3" 3.0676236112017784e-15 1.0755161242759585e-15 6.4662488036164578e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "CD7E416E-EE41-BD66-2F08-15BE0FE9DE5A";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 10.171802178794172;
+	setAttr ".coi" 17.796906021777538;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" 0.53974328588896758 0.38790891391677851 0.54533723594881067 ;
+	setAttr ".tp" -type "double3" 2.3008064031600952 0 0.22587227821350098 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 	setAttr ".ai_translator" -type "string" "perspective";
 createNode transform -s -n "top";
